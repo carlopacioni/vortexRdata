@@ -4,8 +4,8 @@ Title: Example data for R package vortexR
 Version: 0.1.0
 Authors@R: c(
     person("Carlo", "Pacioni", email="C.Pacioni@Murdoch.edu.au", role=c("aut", "cre")),
-    person("Florian", "Mayer", email="Florian.Mayer@dpaw.wa.gov.au", role="aut"))
-Author: Carlo Pacioni [aut, cre], Florian Mayer [aut]
+    person(c("Florian", "W."), "Mayer", email="Florian.Mayer@dpaw.wa.gov.au", role="aut"))
+Author: Carlo Pacioni [aut, cre], Florian W. Mayer [aut]
 Maintainer: Carlo Pacioni <C.Pacioni@Murdoch.edu.au>
 Description: This package provides data from two publications, 
     Campbell et al (2016) and Pacioni et al. (2017) both as raw outputs from the
@@ -13,7 +13,10 @@ Description: This package provides data from two publications,
     The R package vortexR uses the raw data provided here to illustrate its
     functionality of parsing raw Vortex output into R objects.
 URL: https://github.com/carlopacioni/vortexRdata/
-BugReports: https://github.com/carlopacioni/vortexRdata/issues    
+BugReports: https://github.com/carlopacioni/vortexRdata/issues
+Depends:
+    R (>= 3.1.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1

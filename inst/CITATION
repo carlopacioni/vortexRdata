@@ -1,10 +1,9 @@
 citHeader("To cite vortexR in publications use:")
 
 citEntry(entry = "Article",
-         title        = "vortexR: an R package for post Vortex simulation analysis.",
-         author       = personList(as.person("Carlo Pacioni"),
-                        as.person("Florian W. Mayer")),
-         journal      = "Methods in Ecology and Evolution.",
+         title        = "vortexR: an R package for post Vortex simulation analysis",
+         author       = personList(as.person("Carlo Pacioni"), as.person("Florian W. Mayer")),
+         journal      = "Methods in Ecology and Evolution",
          year         = "2017",
          volume       = "",
          number       = "",

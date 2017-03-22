@@ -61,7 +61,7 @@
 #'
 #' @docType package
 #'
-#' @name vortexR
+#' @name vortexRdata
 NULL
 
 
