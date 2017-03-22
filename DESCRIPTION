@@ -1,0 +1,18 @@
+Package: vortexRdata
+Type: Package
+Title: Example data for R package vortexR
+Version: 0.1.0
+Authors@R: c(
+    person("Carlo", "Pacioni", email="C.Pacioni@Murdoch.edu.au", role=c("aut", "cre")),
+    person("Florian", "Mayer", email="Florian.Mayer@dpaw.wa.gov.au", role="aut"))
+Author: Carlo Pacioni [aut, cre], Florian Mayer [aut]
+Maintainer: Carlo Pacioni <C.Pacioni@Murdoch.edu.au>
+Description: This package provides data from two publications, 
+    Campbell et al (2016) and Pacioni et al. (2017) as outputs from the
+    population viability analysis software Vortex.
+    The data from this package is used in the R package vortexR.
+URL: https://github.com/carlopacioni/vortexRdata/
+BugReports: https://github.com/carlopacioni/vortexRdata/issues    
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
