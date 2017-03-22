@@ -16,8 +16,7 @@ In all environments, the results of check() were:
 
 This package serves as an auxiliary data package for our main package vortexR.
 Splitting out the data into a separate package helps to keep vortexR's installed 
-package size to a minimum, allowing experienced users of vortexR to skip the 
-download and installation of vortexRdata.
+package size to a minimum.
 
 ## Downstream dependencies
 We have checked downstream dependencies of vortexR using devtools::revdep_check().
