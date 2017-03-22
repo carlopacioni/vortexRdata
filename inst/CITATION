@@ -1,4 +1,4 @@
-citHeader("To cite vortexR in publications use:")
+citHeader("To cite vortexR and its auxiliary data package vortexRdata in publications use:")
 
 citEntry(entry = "Article",
          title        = "vortexR: an R package for post Vortex simulation analysis",
