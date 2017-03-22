@@ -5,9 +5,8 @@ devtools::check() was run on:
   R version 3.3.3 (RStudio Desktop)
 * GNU/Linux (kernel 4.4.0-53-generic, arch x86_64, Ubuntu 14.04.5 LTS),
   R version 3.3.2 (RStudio Server)
-* GNU/Linux (kernel 3.13.0-103-generic, arch x86_64, Ubuntu 12.04.5 LTS),
-  R version 3.3.2 (TravisCI)
-* MS Windows (TODO Carlo: insert windows and R version)
+* MS Windows (TODO Carlo: insert Windows version of "big laptop"), R version 3.3.3
+* MS Windows (TODO Carlo: insert Windows version of "small laptop"), R version 3.3.2
 
 ## R CMD check results
 In all environments, the results of check() were:
