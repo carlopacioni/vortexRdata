@@ -8,9 +8,10 @@ Authors@R: c(
 Author: Carlo Pacioni [aut, cre], Florian Mayer [aut]
 Maintainer: Carlo Pacioni <C.Pacioni@Murdoch.edu.au>
 Description: This package provides data from two publications, 
-    Campbell et al (2016) and Pacioni et al. (2017) as outputs from the
-    population viability analysis software Vortex.
-    The data from this package is used in the R package vortexR.
+    Campbell et al (2016) and Pacioni et al. (2017) both as raw outputs from the
+    population viability analysis software Vortex and packaged as R objects.
+    The R package vortexR uses the raw data provided here to illustrate its
+    functionality of parsing raw Vortex output into R objects.
 URL: https://github.com/carlopacioni/vortexRdata/
 BugReports: https://github.com/carlopacioni/vortexRdata/issues    
 License: GPL-3
