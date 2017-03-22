@@ -33,8 +33,8 @@ require(vortexRdata)
 data("pac.clas")
 head(pac.clas)
 ```
-The full list of provided compiled data can be found in the package's documentation
-index (run `??vortexRdata` and follow the link "index").
+The full list of provided compiled data can be found in the package's 
+documentation: `help(package = "vortexRdata")`.
 
 ### Raw data
 
