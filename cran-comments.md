@@ -22,3 +22,9 @@ download and installation of vortexRdata.
 ## Downstream dependencies
 We have checked downstream dependencies of vortexR using devtools::revdep_check().
 Results: No errors or warnings found.
+
+## License
+The maintainer of this package, Carlo Pacioni authored both papers which generated
+the data included here. Carlo has the written permission of all of his co-authors 
+to make the data included here available in this form (as R package) under the 
+chosen license (GPL-3).
