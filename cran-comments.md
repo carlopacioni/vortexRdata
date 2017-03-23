@@ -21,9 +21,10 @@ In all environments, the test results were:
 * checking package dependencies ... NOTE
   No repository set, so cyclic dependency check skipped
   
-    This NOTE only occurred on winbuilder. 
+    This NOTE only occurred on winbuilder, R version 3.2.5 "oldrelease".
     vortexRdata has no dependencies, as it contains no R code besides the data 
-    (.rda and raw text files), therefore we see no risk of cyclic dependencies.
+    (.rda and raw text files), therefore we see no risk of cyclic dependencies
+    limited to R version 3.2.5 but not occurring in all other tested environments.
     
     This test passes OK on GNU/Linux and local Windows test environments.
 
