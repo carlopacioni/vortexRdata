@@ -1,7 +1,7 @@
 Package: vortexRdata
 Type: Package
 Title: Example data for R package vortexR
-Version: 0.1.0
+Version: 1.0.0
 Authors@R: c(
     person("Carlo", "Pacioni", email="C.Pacioni@Murdoch.edu.au", role=c("aut", "cre")),
     person(c("Florian", "W."), "Mayer", email="Florian.Mayer@dpaw.wa.gov.au", role="aut"))
