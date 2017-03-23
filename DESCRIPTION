@@ -1,14 +1,14 @@
 Package: vortexRdata
 Type: Package
-Title: Example data for R package vortexR
+Title: Example Data for R Package vortexR
 Version: 1.0.0
 Authors@R: c(
     person("Carlo", "Pacioni", email="C.Pacioni@Murdoch.edu.au", role=c("aut", "cre")),
     person(c("Florian", "W."), "Mayer", email="Florian.Mayer@dpaw.wa.gov.au", role="aut"))
 Author: Carlo Pacioni [aut, cre], Florian W. Mayer [aut]
 Maintainer: Carlo Pacioni <C.Pacioni@Murdoch.edu.au>
-Description: vortexRdata provides data from two publications, 
-    Campbell et al (2016) and Pacioni et al. (2017) both as raw outputs from the
+Description: Data from two publications, Campbell et al (2016) and Pacioni et 
+    al. (2017) is provided both as raw outputs from the
     population viability analysis software Vortex and packaged as R objects.
     The R package vortexR uses the raw data provided here to illustrate its
     functionality of parsing raw Vortex output into R objects.
