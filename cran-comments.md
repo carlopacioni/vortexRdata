@@ -21,10 +21,11 @@ In all environments, the results of R CMD check --as-cran were:
 * checking package dependencies ... NOTE
   No repository set, so cyclic dependency check skipped
   
-    This NOTE only occurred on winbuilder. This package has no dependencies, 
-    as it contains only data (.rda and raw text files).
+    This NOTE only occurred on winbuilder. 
+    vortexRdata has no dependencies, as it contains no R code besides the data 
+    (.rda and raw text files), therefore we see no risk of cyclic dependencies.
     
-    This test passes with OK on GNU/Linux and local Windows test environments.
+    This test passes OK on GNU/Linux and local Windows test environments.
 
 This package serves as an auxiliary data package for our main package vortexR 
 to keep vortexR's installed package size to a minimum.
