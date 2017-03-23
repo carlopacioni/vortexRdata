@@ -8,7 +8,7 @@
 * MS Windows 10 Home, 64 bit, R v3.3.2 (RStudio Desktop)
 
 ## R CMD check results
-In all environments, the results of R CMD check --as-cran were:
+In all environments, the test results were:
 
 0 errors | 0 warnings | 1 note (+1 on winbuilder)
 
