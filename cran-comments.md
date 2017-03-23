@@ -24,8 +24,8 @@ In all environments, the results of R CMD check --as-cran were:
 * checking package dependencies ... NOTE
   No repository set, so cyclic dependency check skipped
   
-    This NOTE only occurred on winbuilder. This package has no dependencies, as it
-    contains only data (.Rda and raw text files).
+    This NOTE only occurred on winbuilder. This package has no dependencies, 
+    as it contains only data (.rda and raw text files).
 
 This package serves as an auxiliary data package for our main package vortexR 
 to keep vortexR's installed package size to a minimum.
