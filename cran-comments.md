@@ -59,8 +59,6 @@ suggestions from one CRAN reviewer. The suggestions were addressed as follows:
   as per the reviewer's suggestions, however this introduces a NOTE (see above).
 * The citations now include DOIs in APA style.
 * Version bumped to 1.0.1.
-* Tests run in GNU/Linux environments, as only metadata in DESCRIPTION has changed
-  since version 1.0.0 which was tested in all environments.
 
 ## Downstream dependencies
 We have checked downstream dependencies of vortexR using devtools::revdep_check().
