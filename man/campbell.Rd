@@ -15,5 +15,5 @@ A folder with Vortex outputs from Campbell et al (2016).
 }
 \examples{
 campbell_dir <- system.file("extdata", "campbell", package="vortexR")
-cat("Campbell example files:\\n"); dir(campbell_dir)
+cat("campbell example files:\\n"); dir(campbell_dir)
 }

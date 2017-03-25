@@ -5,13 +5,25 @@
 \alias{vortexRdata}
 \alias{vortexRdata-package}
 \title{vortexRdata: Example data for vortexR}
+\source{
+Campbell et al. (2016). Assessing the economic benefits of starling
+ detection and control to Western Australia. Australasian Journal of
+ Environmental Management, 23, 81-99
+ \href{https://dx.doi.org/10.1080/14486563.2015.1028486}{DOI:10.1080/14486563.2015.1028486}
+
+Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
+ Predators and genetic fitness: key threatening factors for the conservation
+ of bettong species. Pacific Conservation Biology.
+ \href{https://doi.org/10.1071/PC17002}{DOI:10.1071/PC17002}
+}
 \description{
 \code{vortexRdata} provides real-world example data for \code{vortexR} in both
 raw (Vortex output) and binary (R objects) form.
-\code{vortexR} uses the raw data provided here to illustrate its capability
-to parse raw Vortex output files into one R object.
 }
 \details{
+\code{vortexR} uses the raw data provided here to illustrate its capability
+to parse raw Vortex output files into one R object.
+
 \code{vortexR} facilitates Post Vortex Simulation Analysis (PVSA) by offering
 tools to collate multiple Vortex (v10) output files into one R object, generate
 plots and conduct basic analysis (e.g. pairwise comparisons of scenarios) and
@@ -33,28 +45,3 @@ converting them into pdf) or published as web-pages.
 The use of \code{vortexR} ensures reproducibility and standardises analytical
 approaches in population viability analysis.
 }
-\section{Documentations}{
-
-Use \code{help(package = "vortexR")} for a list of \code{vortexR} functions
-and their specific documentations.
-
-A more detailed description of the package and functions can be opened with:
-\code{vignette(package="vortexR", topic="User-guide")}.
-
-More vignettes may be come available in the future. Use
-\code{vignette(package="vortexR")} to see all the available vignettes.
-}
-
-\section{Citation}{
-
-If you use \code{vortexR}, please cite:
-Pacioni, C., and Mayer, F. (2017). vortexR: an R package for post Vortex
-simulation analysis. Methods in Ecology and Evolution.
-}
-
-\section{Get in touch}{
-
-Please don't hesitate to report any issues at \url{https://github.com/carlopacioni/vortexR/issues}.
-Contributions to both vortexR and vortexRdata via pull requests are most welcome.
-}
-

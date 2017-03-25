@@ -17,5 +17,5 @@ A folder with Vortex outputs from Pacioni et al. (2017) used
 }
 \examples{
 pacioni_dir <- system.file("extdata", "pacioni", package="vortexR")
-cat("Pacioni example files:\\n"); dir(pacioni_dir)
+cat("pacioni example files:\\n"); dir(pacioni_dir)
 }

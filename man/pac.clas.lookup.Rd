@@ -16,6 +16,6 @@ Data from Pacioni et al. (2017) - sensitivity test scenario
 sizes using \code{lookup_table}.
 }
 \examples{
-data(pac.clas.lookup)
+data("pac.clas.lookup")
 head(pac.clas.lookup)
 }
