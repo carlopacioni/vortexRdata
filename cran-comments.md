@@ -100,6 +100,13 @@ A second reviewer requested the following revisions:
 * Refactored documentation, added DOIs to all citations.
 * Version bumped to 1.0.2 and resubmitted to CRAN.
 
+### Version 1.0.3
+ A third reviewer commented:
+* Title: Example Data for R Package vortexR
+    Pls put 'vortexR' inside single quotes.
+    
+    This has been amended.
+
 ## Downstream dependencies
 We have checked downstream dependencies of vortexR using devtools::revdep_check().
 Results: No errors or warnings found.
