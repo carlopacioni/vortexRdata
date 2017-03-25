@@ -31,14 +31,14 @@
 #' approaches in population viability analysis.
 #'
 #' @section Documentation
-#' Use \code{help(package = "vortexR")} for a list of \code{vortexR} functions
+#' Use \code{help(package = 'vortexR')} for a list of \code{vortexR} functions
 #' and their specific documentations.
 #'
 #' A more detailed description of the package and functions can be opened with:
-#' \code{vignette(package="vortexR", topic="User-guide")}.
+#' \code{vignette(package='vortexR', topic='User-guide')}.
 #'
 #' More vignettes may be come available in the future. Use
-#' \code{vignette(package="vortexR")} to see all the available vignettes.
+#' \code{vignette(package='vortexR')} to see all the available vignettes.
 #'
 #' @section Citation
 #' If you use \code{vortexR}, please cite:
@@ -65,7 +65,7 @@ NULL
 #' @title Collated results from Vortex scenarios - Campbell et al (2016)
 #' @description A dataset with the results from the main Vortex scenarios used
 #'  in Campbell et al (2016). Vortex outputs, from the project named
-#'  "Starlingv3PopBased" (.dat files), were collated with \code{collate_dat}.
+#'  'Starlingv3PopBased' (.dat files), were collated with \code{collate_dat}.
 #' @templateVar objname sta.main
 #' @template data-example
 #' @format a \code{data.frame} with 1632 observations of 44 variables.
@@ -77,7 +77,7 @@ NULL
 #' @description A dataset with the results from Vortex scenarios used in
 #'  Campbell et al (2016) to simulate major application of control measures
 #'  in every 5 year cycle. Vortex outputs, from the project named
-#'  "Starlingv3PopBased" and the sensitivity test scenario "MReductEvy5"
+#'  'Starlingv3PopBased' and the sensitivity test scenario 'MReductEvy5'
 #'  (.stdat files), were collated with \code{collate_dat}.
 #' @templateVar objname sta.evy5
 #' @template data-example
@@ -90,8 +90,8 @@ NULL
 #' @description A dataset with the results from Vortex scenarios used in Campbell
 #'  et al (2016) to simulate major application of control measures in every
 #'  5 year cycle, maintaining 2011 levels of investment. Vortex outputs, from
-#'  the project named "Starlingv3PopBased" and the sensitivity test scenario
-#'  "MReduction_B11_09Evy5" (.stdat files), were collated with \code{collate_dat}.
+#'  the project named 'Starlingv3PopBased' and the sensitivity test scenario
+#'  'MReduction_B11_09Evy5' (.stdat files), were collated with \code{collate_dat}.
 #' @templateVar objname sta.evy5.b11
 #' @template data-example
 #' @format a \code{data.frame} with 1020 observations of 47 variables.
@@ -102,8 +102,8 @@ NULL
 #' @title Collated results from Vortex scenarios - Pacioni et al. (2017)
 #' @description Subset (only 3 runs) of data from Pacioni et al. (2017) used
 #'   to conduct a sensitivity analysis on demographic parameters. Vortex
-#'   outputs, from the project named "Pacioni_et_al" and (Single-Factor)
-#'   sensitivity test scenario "ST_Classic" (.stdat files), were collated with
+#'   outputs, from the project named 'Pacioni_et_al' and (Single-Factor)
+#'   sensitivity test scenario 'ST_Classic' (.stdat files), were collated with
 #'   \code{collate_dat}.
 #' @templateVar objname pac.clas
 #' @template data-example
@@ -115,8 +115,8 @@ NULL
 #' @title Collated results from Vortex scenarios - Pacioni et al. (2017)
 #' @description Data from Pacioni et al. (2017) used to conduct a sensitivity
 #'  analysis on demographic parameters. Vortex outputs, from the project named
-#'  "Pacioni_et_al" and (Latin Hypercube Sampling) sensitivity test scenario
-#'  "ST_LHS" (.stdat files), were collated with \code{collate_dat}.
+#'  'Pacioni_et_al' and (Latin Hypercube Sampling) sensitivity test scenario
+#'  'ST_LHS' (.stdat files), were collated with \code{collate_dat}.
 #' @templateVar objname pac.lhs
 #' @template data-example
 #' @format A \code{data.frame} of 6171 observations of 68 variables.
@@ -127,8 +127,8 @@ NULL
 #' @title Collated results from Vortex scenarios - Pacioni et al. (2017)
 #' @description Data from Pacioni et al. (2017) used to conduct a sensitivity
 #'  analysis on demographic parameters. Vortex outputs, from the project named
-#'  "Pacioni_et_al" and (Latin Hypercube Sampling) sensitivity test scenario
-#'  "ST_LHS" (.run files), were collated with \code{collate_run}.
+#'  'Pacioni_et_al' and (Latin Hypercube Sampling) sensitivity test scenario
+#'  'ST_LHS' (.run files), were collated with \code{collate_run}.
 #' @templateVar objname pac.run.lhs
 #' @template data-example
 #' @format A named list of two \code{data.frame}s:
@@ -140,7 +140,7 @@ NULL
 #' @title Collated results from Vortex scenarios - Pacioni et al. (2017)
 #' @description Data from Pacioni et al. (2017) used to conduct a sensitivity
 #'  analysis on demographic parameters. Vortex outputs, from the project named
-#'  "Pacioni_et_al" and (Single-Factor) sensitivity test scenario "ST_Classic"
+#'  'Pacioni_et_al' and (Single-Factor) sensitivity test scenario 'ST_Classic'
 #'  (.yr files), were collated with \code{collate_yr}.
 #' @templateVar objname pac.yr
 #' @template data-example
@@ -152,7 +152,7 @@ NULL
 #' @name pac.clas.Nadults
 #' @title Harmonic mean of adults and population sizes
 #' @description Data from Pacioni et al. (2017) - sensitivity test scenario
-#' "ST_Classic" - were used to calculate the harmonic mean of adults and population
+#' 'ST_Classic' - were used to calculate the harmonic mean of adults and population
 #' sizes using \code{Nadults}.
 #' @templateVar objname pac.clas.Nadults
 #' @template data-example
@@ -163,7 +163,7 @@ NULL
 #' @name pac.clas.Ne
 #' @title Effective population size
 #' @description Data from Pacioni et al. (2017) - sensitivity test scenario
-#' "ST_Classic" - were used to calculate the effective population size
+#' 'ST_Classic' - were used to calculate the effective population size
 #' sizes using \code{Ne}.
 #' @templateVar objname pac.clas.Ne
 #' @template data-example
@@ -174,7 +174,7 @@ NULL
 #' @name pac.clas.lookup
 #' @title Look-up table
 #' @description Data from Pacioni et al. (2017) - sensitivity test scenario
-#' "ST_Classic" - were used to generate a look-up table
+#' 'ST_Classic' - were used to generate a look-up table
 #' sizes using \code{lookup_table}.
 #' @templateVar objname pac.clas.lookup
 #' @template data-example
@@ -185,7 +185,7 @@ NULL
 #' @name pac.clas.pairw
 #' @title Results of pairwise comparisons of simulation scenarios
 #' @description Results of pairwise comparisons of simulation scenarios included
-#' in the sensitivity test scenario "ST_Classic" using \code{pairwise}.
+#' in the sensitivity test scenario 'ST_Classic' using \code{pairwise}.
 #' @templateVar objname pac.clas.pairw
 #' @template data-example
 #' @format A named list of 12 \code{element}s. See documentation for details.
