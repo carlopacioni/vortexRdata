@@ -17,13 +17,14 @@
 #'
 #' \code{vortexR} has a number of functions that are useful during the
 #' development of a Vortex project and for its analysis after completion.
-#' \code{vortexR} makes it easy to automatise the creation of plots and
+#'
+#' \code{vortexR} facilitates the creation of plots and
 #' computation of basic statistics to inspect the effect of changes carried out
-#' in the Vortex project. Once the project development is completed, the same
+#' in the Vortex project. Once the Vortex project development is completed, the same
 #' framework used in \code{vortexR} during the development of the project can be
 #' refined and extended to include more advanced statistical analyses or can be
 #' easily included in Markdown documents for the creation of reports (by
-#' converting them into pdf) or update web-pages.
+#' converting them into pdf) or published as web-pages.
 #'
 #' The use of \code{vortexR} ensures reproducibility and standardises analytical
 #' approaches in population viability analysis.
@@ -44,12 +45,11 @@
 #' simulation analysis. Methods in Ecology and Evolution.
 #'
 #' @section Get in touch:
-#' Please, use \url{https://github.com/carlopacioni/vortexR/issues} to report
-#' any issues with vortexR. If unsure, or for feedback, contact me at:
-#' carlo.pacioni 'at' gmail.com.
+#' Please don't hesitate to report any issues at \url{https://github.com/carlopacioni/vortexR/issues}.
+#' Contributions to both vortexR and vortexRdata via pull requests are most welcome.
 #'
-#' @section Publications:
-#' \emph{Below there are listed a few publications that used \code{vortexR}.}
+#' @section Publications
+#' \emph{The following publications used \code{vortexR}:}
 #'
 #' Campbell et al. (2016). Assessing the economic benefits of starling
 #'  detection and control to Western Australia. Australasian Journal of
@@ -80,9 +80,7 @@ NULL
 #' data(sta.main)
 #' head(sta.main)
 #' @format a \code{data.frame} with 1632 observations of 44 variables.
-#' @source Campbell et al. (2016). Assessing the economic benefits of starling
-#'  detection and control to Western Australia. Australasian Journal of
-#'  Environmental Management, 23, 81-99
+#' @template citation-campbell
 NULL
 
 #' @name sta.evy5
@@ -96,9 +94,7 @@ NULL
 #' data(sta.evy5)
 #' head(sta.evy5)
 #' @format a \code{data.frame} with 1020 observations of 47 variables.
-#' @source Campbell et al. (2016). Assessing the economic benefits of starling
-#'  detection and control to Western Australia. Australasian Journal of
-#'  Environmental Management, 23, 81-99
+#' @template citation-campbell
 NULL
 
 #' @name sta.evy5.b11
@@ -112,9 +108,7 @@ NULL
 #' data(sta.evy5.b11)
 #' head(sta.evy5.b11)
 #' @format a \code{data.frame} with 1020 observations of 47 variables.
-#' @source Campbell et al. (2016). Assessing the economic benefits of starling
-#'  detection and control to Western Australia. Australasian Journal of
-#'  Environmental Management, 23, 81-99
+#' @template citation-campbell
 NULL
 
 #' @name pac.clas
@@ -128,9 +122,7 @@ NULL
 #' data(pac.clas)
 #' head(pac.clas)
 #' @format a \code{data.frame} of 2904 observations of 68 variables.
-#' @source Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
-#'   Predators and genetic fitness: key threatening factors for the conservation
-#'   of bettong species. Pacific Conservation Biology.
+#' @template citation-pacioni
 NULL
 
 #' @name pac.lhs
@@ -143,9 +135,7 @@ NULL
 #' data(pac.lhs)
 #' head(pac.lhs)
 #' @format A \code{data.frame} of 6171 observations of 68 variables.
-#' @source Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
-#'  Predators and genetic fitness: key threatening factors for the conservation
-#'  of bettong species. Pacific Conservation Biology.
+#' @template citation-pacioni
 NULL
 
 #' @name pac.run.lhs
@@ -159,9 +149,7 @@ NULL
 #' head(pac.run.lhs)
 #' @format A named list of two \code{data.frame}s:
 #'   run (153 obs, 7 var), lrun (153 obs, 8 var).
-#' @source Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
-#'  Predators and genetic fitness: key threatening factors for the conservation
-#'  of bettong species. Pacific Conservation Biology.
+#' @template citation-pacioni
 NULL
 
 #' @name pac.yr
@@ -175,9 +163,7 @@ NULL
 #' head(pac.yr)
 #' @format A named list of two \code{element}s:
 #'   all (8712 obs, 26 var), means (2904 obs, 25 var).
-#' @source Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
-#'  Predators and genetic fitness: key threatening factors for the conservation
-#'  of bettong species. Pacific Conservation Biology.
+#' @template citation-pacioni
 NULL
 
 #' @name pac.clas.Nadults
@@ -189,9 +175,7 @@ NULL
 #' data(pac.clas.Nadults)
 #' head(pac.clas.Nadults)
 #' @format A \code{data.frame} with 24 observations of 4 variables.
-#' @source Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
-#'  Predators and genetic fitness: key threatening factors for the conservation
-#'  of bettong species. Pacific Conservation Biology.
+#' @template citation-pacioni
 NULL
 
 #' @name pac.clas.Ne
@@ -203,9 +187,7 @@ NULL
 #' data(pac.clas.Ne)
 #' head(pac.clas.Ne)
 #' @format A \code{data.frame} with 24 observations of 2 variables.
-#' @source Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
-#'  Predators and genetic fitness: key threatening factors for the conservation
-#'  of bettong species. Pacific Conservation Biology.
+#' @template citation-pacioni
 NULL
 
 #' @name pac.clas.lookup
@@ -217,9 +199,7 @@ NULL
 #' data(pac.clas.lookup)
 #' head(pac.clas.lookup)
 #' @format A \code{data.frame} with 24 observations of 8 variables.
-#' @source Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
-#'  Predators and genetic fitness: key threatening factors for the conservation
-#'  of bettong species. Pacific Conservation Biology.
+#' @template citation-pacioni
 NULL
 
 #' @name pac.clas.pairw
@@ -230,9 +210,7 @@ NULL
 #' data(pac.clas.pairw)
 #' head(pac.clas.pairw)
 #' @format A named list of 12 \code{element}s. See documentation for details.
-#' @source Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
-#'  Predators and genetic fitness: key threatening factors for the conservation
-#'  of bettong species. Pacific Conservation Biology.
+#' @template citation-pacioni
 NULL
 
 #------------------------------------------------------------------------------#
@@ -247,9 +225,7 @@ NULL
 #' pacioni_dir <- system.file("extdata", "pacioni", package="vortexR")
 #' cat("Pacioni example files:\n"); dir(pacioni_dir)
 #' @format One .xml file and several .run and .stdat files.
-#' @source Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
-#'  Predators and genetic fitness: key threatening factors for the conservation
-#'  of bettong species. Pacific Conservation Biology.
+#' @template citation-pacioni
 NULL
 
 #' @name campbell
@@ -259,7 +235,5 @@ NULL
 #' campbell_dir <- system.file("extdata", "campbell", package="vortexR")
 #' cat("Campbell example files:\n"); dir(campbell_dir)
 #' @format Several .dat and .stdat files.
-#' @source Campbell et al. (2016). Assessing the economic benefits of starling
-#'  detection and control to Western Australia. Australasian Journal of
-#'  Environmental Management, 23, 81-99
+#' @template citation-campbell
 NULL

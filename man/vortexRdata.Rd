@@ -21,13 +21,14 @@ interest.
 
 \code{vortexR} has a number of functions that are useful during the
 development of a Vortex project and for its analysis after completion.
-\code{vortexR} makes it easy to automatise the creation of plots and
+
+\code{vortexR} facilitates the creation of plots and
 computation of basic statistics to inspect the effect of changes carried out
-in the Vortex project. Once the project development is completed, the same
+in the Vortex project. Once the Vortex project development is completed, the same
 framework used in \code{vortexR} during the development of the project can be
 refined and extended to include more advanced statistical analyses or can be
 easily included in Markdown documents for the creation of reports (by
-converting them into pdf) or update web-pages.
+converting them into pdf) or published as web-pages.
 
 The use of \code{vortexR} ensures reproducibility and standardises analytical
 approaches in population viability analysis.
@@ -53,23 +54,7 @@ simulation analysis. Methods in Ecology and Evolution.
 
 \section{Get in touch}{
 
-Please, use \url{https://github.com/carlopacioni/vortexR/issues} to report
-any issues with vortexR. If unsure, or for feedback, contact me at:
-carlo.pacioni 'at' gmail.com.
-}
-
-\section{Publications}{
-
-\emph{Below there are listed a few publications that used \code{vortexR}.}
-
-Campbell et al. (2016). Assessing the economic benefits of starling
- detection and control to Western Australia. Australasian Journal of
- Environmental Management, 23, 81-99.
- \href{https://dx.doi.org/10.1080/14486563.2015.1028486}{DOI:10.1080/14486563.2015.1028486}
-
-Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
- Predators and genetic fitness: key threatening factors for the conservation
- of bettong species. Pacific Conservation Biology.
- \href{https://doi.org/10.1071/PC17002}{DOI:10.1071/PC17002}
+Please don't hesitate to report any issues at \url{https://github.com/carlopacioni/vortexR/issues}.
+Contributions to both vortexR and vortexRdata via pull requests are most welcome.
 }
 
