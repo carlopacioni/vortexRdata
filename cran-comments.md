@@ -89,9 +89,15 @@ A second reviewer requested the following revisions:
     This will provide working examples of accessing every data object 
     (e.g. `help("pac.clas.lookup")`) and every directory of raw data 
     (e.g. `help("pacioni")`).
-    Furthermore, our main package `vortexR` provides advanced examples by 
-    parsing raw data provided by `vortexRdata` and analysing the parsed data.
     
+    Furthermore, the README provides examples of how our main package `vortexR` 
+    parses raw data provided by `vortexRdata` and analyses the parsed data.
+    
+    Lastly, the `vortexR` vignette provides a detailed, in-depth walkthrough of
+    possible actions on Vortex output such as the examples provided through
+    `vortexRdata`.
+    
+* Refactored documentation, added DOIs to all citations.
 * Version bumped to 1.0.2 and resubmitted to CRAN.
 
 ## Downstream dependencies
