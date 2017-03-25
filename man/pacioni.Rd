@@ -9,12 +9,12 @@ Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
  Predators and genetic fitness: key threatening factors for the conservation
  of bettong species. Pacific Conservation Biology.
 }
-\usage{
-# To retrieve the path to the files use:
-# system.file("extdata", "pacioni", package="vortexR")
-}
 \description{
 A folder with Vortex outputs from Pacioni et al. (2017) used
  to run examples and Vortex project file. NOTE: these simulations are shorter
  than those presented in the paper (only 3 runs for 120 'Vortex-years').
+}
+\examples{
+pacioni_dir <- system.file("extdata", "pacioni", package="vortexR")
+cat("Pacioni example files:\\n"); dir(pacioni_dir)
 }

@@ -9,11 +9,12 @@ Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
  Predators and genetic fitness: key threatening factors for the conservation
  of bettong species. Pacific Conservation Biology.
 }
-\usage{
-data(pac.clas.lookup)
-}
 \description{
 Data from Pacioni et al. (2017) - sensitivity test scenario
 "ST_Classic" - were used to generate a look-up table
 sizes using \code{lookup_table}.
+}
+\examples{
+data(pac.clas.lookup)
+head(pac.clas.lookup)
 }

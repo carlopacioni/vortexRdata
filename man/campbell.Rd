@@ -9,10 +9,10 @@ Campbell et al. (2016). Assessing the economic benefits of starling
  detection and control to Western Australia. Australasian Journal of
  Environmental Management, 23, 81-99
 }
-\usage{
-# To retrieve the path to the files use:
-# system.file("extdata", "campbell", package="vortexR")
-}
 \description{
 A folder with Vortex outputs from Campbell et al (2016).
+}
+\examples{
+campbell_dir <- system.file("extdata", "campbell", package="vortexR")
+cat("Campbell example files:\\n"); dir(campbell_dir)
 }
