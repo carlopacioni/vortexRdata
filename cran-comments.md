@@ -101,11 +101,12 @@ A second reviewer requested the following revisions:
 * Version bumped to 1.0.2 and resubmitted to CRAN.
 
 ### Version 1.0.3
- A third reviewer commented:
-* Title: Example Data for R Package vortexR
-    Pls put 'vortexR' inside single quotes.
+A third reviewer commented:
+
+* Title: Example Data for R Package vortexR: "Please put 'vortexR' inside single quotes."
     
-    This has been amended.
+    This has been amended, the `Title` now single-quotes 'vortexR' in line with
+    the `Description`.
 
 ## Downstream dependencies
 We have checked downstream dependencies of vortexR using devtools::revdep_check().
