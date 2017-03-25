@@ -18,23 +18,10 @@ In all environments, the test results were:
     Maintainer: ‘Carlo Pacioni <C.Pacioni@Murdoch.edu.au>’
 
     New submission
-
-    Possibly mis-spelled words in DESCRIPTION:
-    
-    Pacioni (12:9)
-    
-    al (11:17, 12:20)
-    
-    et (11:14, 12:17)
-    
-    vortexR (3:35)
     ```
   
     We would like to confirm that this package is a new submission.
     
-    We would like to confirm that flagged possible mis-spelled words are 
-    false positives and in fact correct.
-
 * checking package dependencies ... NOTE
   
     ```
