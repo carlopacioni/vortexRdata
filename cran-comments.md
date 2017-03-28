@@ -9,31 +9,15 @@
 * MS Windows 10 Home, 64 bit, R v3.3.2 (RStudio Desktop)
 
 ## R CMD check results
-In all environments, the test results were:
+In all environments, the test results were: 0 errors | 0 warnings | 1 note 
 
-0 errors | 0 warnings | 1 note (+1 on winbuilder "oldrelease")
-
-* NOTE
-    ```
-    Maintainer: ‘Carlo Pacioni <C.Pacioni@Murdoch.edu.au>’
-
-    New submission
-
-    Possibly mis-spelled words in DESCRIPTION:
-    
-    Pacioni (12:9)
-    
-    al (11:17, 12:20)
-    
-    et (11:14, 12:17)
-    
-    vortexR (3:35)
-    ```
+* checking CRAN incoming feasibility ... NOTE
+  ```
+  Maintainer: ‘Carlo Pacioni <C.Pacioni@Murdoch.edu.au>’
   
-    We would like to confirm that this package is a new submission.
-    
-    We would like to confirm that flagged possible mis-spelled words are 
-    false positives and in fact correct.
+  Days since last update: 3
+  ```
+only on winbuilder "oldrelease":
 
 * checking package dependencies ... NOTE
   
@@ -107,6 +91,12 @@ A third reviewer commented:
     
     This has been amended, the `Title` now single-quotes 'vortexR' in line with
     the `Description`.
+    
+Version 1.0.3 was accepted on CRAN and is `Import`ed by `vortexR` v.1.0.2.
+    
+### Version 1.0.4
+This bugfix updates the code examples in the docs to use raw data provided by
+`vortexRdata` rather than `vortexR`, where it originally was stored.
 
 ## Downstream dependencies
 We have checked downstream dependencies of vortexR using devtools::revdep_check().

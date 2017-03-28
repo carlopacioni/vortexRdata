@@ -14,6 +14,6 @@ Campbell et al. (2016). Assessing the economic benefits of starling
 A folder with Vortex outputs from Campbell et al (2016).
 }
 \examples{
-campbell_dir <- system.file("extdata", "campbell", package="vortexR")
+campbell_dir <- system.file("extdata", "campbell", package="vortexRdata")
 cat("campbell example files:\\n"); dir(campbell_dir)
 }

@@ -16,6 +16,6 @@ A folder with Vortex outputs from Pacioni et al. (2017) used
  than those presented in the paper (only 3 runs for 120 'Vortex-years').
 }
 \examples{
-pacioni_dir <- system.file("extdata", "pacioni", package="vortexR")
+pacioni_dir <- system.file("extdata", "pacioni", package="vortexRdata")
 cat("pacioni example files:\\n"); dir(pacioni_dir)
 }
