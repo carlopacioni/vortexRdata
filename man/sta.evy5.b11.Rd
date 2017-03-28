@@ -14,8 +14,8 @@ Campbell et al. (2016). Assessing the economic benefits of starling
 A dataset with the results from Vortex scenarios used in Campbell
  et al (2016) to simulate major application of control measures in every
  5 year cycle, maintaining 2011 levels of investment. Vortex outputs, from
- the project named "Starlingv3PopBased" and the sensitivity test scenario
- "MReduction_B11_09Evy5" (.stdat files), were collated with \code{collate_dat}.
+ the project named 'Starlingv3PopBased' and the sensitivity test scenario
+ 'MReduction_B11_09Evy5' (.stdat files), were collated with \code{collate_dat}.
 }
 \examples{
 data("sta.evy5.b11")

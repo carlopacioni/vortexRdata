@@ -14,7 +14,7 @@ Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
 \description{
 Data from Pacioni et al. (2017) used to conduct a sensitivity
  analysis on demographic parameters. Vortex outputs, from the project named
- "Pacioni_et_al" and (Single-Factor) sensitivity test scenario "ST_Classic"
+ 'Pacioni_et_al' and (Single-Factor) sensitivity test scenario 'ST_Classic'
  (.yr files), were collated with \code{collate_yr}.
 }
 \examples{

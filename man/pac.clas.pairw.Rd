@@ -12,7 +12,7 @@ Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
 }
 \description{
 Results of pairwise comparisons of simulation scenarios included
-in the sensitivity test scenario "ST_Classic" using \code{pairwise}.
+in the sensitivity test scenario 'ST_Classic' using \code{pairwise}.
 }
 \examples{
 data("pac.clas.pairw")

@@ -12,7 +12,7 @@ Pacioni, C., Williams, M., Lacy RC, Spencer, P.B.S. and Wayne, A.F. (2017)
 }
 \description{
 Data from Pacioni et al. (2017) - sensitivity test scenario
-"ST_Classic" - were used to calculate the harmonic mean of adults and population
+'ST_Classic' - were used to calculate the harmonic mean of adults and population
 sizes using \code{Nadults}.
 }
 \examples{
