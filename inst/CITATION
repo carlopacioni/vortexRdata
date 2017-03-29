@@ -11,7 +11,7 @@ citEntry(entry = "Article",
          url          = "",
 
          textVersion  =
-           paste("Pacioni, C., and Mayer, FW. (in prep).",
+           paste("Pacioni, C., and Mayer, FW. (in press).",
                  "vortexR: an R package for post Vortex simulation analysis.",
                  "Methods in Ecology and Evolution.")
 )
