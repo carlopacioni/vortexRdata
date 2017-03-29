@@ -11,7 +11,13 @@ functionality of parsing raw Vortex output into R objects.
 
 ## Install
 
-You can install vortexRdata and vortexR from github with:
+The stable versions of `vortexRdata` and `vortexR` can be installed with:
+
+```R
+install.packages("vortexR", dependencies = TRUE)
+```
+
+The latest development versions of `vortexRdata` and `vortexR` can be installed with:
 
 ```R
 # install.packages("devtools")
