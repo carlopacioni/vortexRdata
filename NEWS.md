@@ -1,3 +1,6 @@
+# vortexRdata 1.0.5
+* Update data format to reflect new output format of irr (0.84.1)
+
 # vortexRdata 1.0.4
 * Update the code examples in the docs to use raw data provided by
   `vortexRdata` rather than `vortexR`, where it originally was stored.

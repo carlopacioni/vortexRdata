@@ -1,7 +1,7 @@
 Package: vortexRdata
 Type: Package
 Title: Example Data for R Package 'vortexR'
-Version: 1.0.4
+Version: 1.0.5
 Authors@R: c(
     person("Carlo", "Pacioni", email="C.Pacioni@Murdoch.edu.au", role=c("aut", "cre")),
     person(c("Florian", "W."), "Mayer", email="Florian.Mayer@dpaw.wa.gov.au", role="aut"))
@@ -21,4 +21,4 @@ Depends:
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
