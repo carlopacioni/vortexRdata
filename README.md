@@ -73,7 +73,5 @@ requests through the main package [`vortexR`](https://github.com/carlopacioni/vo
 
 ## Future development
 
-We are in the process of releasing `vortexR` and `vortexRdata` to CRAN.
-In addition, a paper describing `vortexR` is in press.
-Once both packages are available through CRAN, installation, citation, and usage 
-of `vortexR` and `vortexRdata` are likely to change.
+Stable version of `vortexR` and `vortexRdata` are available on CRAN.
+A paper describing `vortexR` is available [here](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12786).
